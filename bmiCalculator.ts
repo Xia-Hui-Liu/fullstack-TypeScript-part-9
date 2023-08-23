@@ -1,6 +1,6 @@
 type text = 'Underweight (keep your weight up)' | 'Normal (healthy weight)' | 'Overweight (over weight)';
 
-const calculateBmi = (h: number, w: number): text => {
+export const calculateBmi = (h: number, w: number): text => {
     // Check if height is in centimeters, convert it to meters if needed
     if (h > 3) { // Assuming if height > 3 meters, it's given in centimeters
         h = h / 100; // Convert centimeters to meters
@@ -18,4 +18,4 @@ const calculateBmi = (h: number, w: number): text => {
 }
 
 
-console.log(calculateBmi(180, 74))
+console.log(calculateBmi(180, 90))

@@ -46,7 +46,4 @@ export const calculateExercises = (arr:number[], targetHours:number): resultObje
     return result;
     }
     
-    const exerciseHours = [3, 0, 2, 4.5, 0, 3, 1];
-    const targetHours = 2;
-    const result = calculateExercises(exerciseHours, targetHours);
-    console.log(result);
+   
